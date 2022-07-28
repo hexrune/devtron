@@ -46,6 +46,8 @@ spec:
         app: devtron
         release: devtron
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       terminationGracePeriodSeconds: 30
       restartPolicy: Always
       serviceAccountName: devtron
@@ -93,6 +95,8 @@ metadata:
   annotations:
     "helm.sh/resource-policy": keep
 spec:
+  nodeSelector:
+    kubernetes.io/arch: amd64
   endpoints:
     - port: devtron
       path: /metrics

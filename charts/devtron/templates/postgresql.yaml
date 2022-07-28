@@ -161,6 +161,8 @@ spec:
         release: "devtron"
         role: master
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       securityContext:
         fsGroup: 1001
       initContainers:

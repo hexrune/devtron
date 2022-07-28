@@ -17,6 +17,8 @@ metadata:
 {{ toYaml .annotations | nindent 4 }}
     {{- end }}
 spec:
+  nodeSelector:
+    kubernetes.io/arch: amd64
   rules:
   - host: {{ .host }}
     http:
@@ -54,6 +56,8 @@ metadata:
 {{ toYaml .annotations | nindent 4 }}
   {{- end }}
 spec:
+  nodeSelector:
+    kubernetes.io/arch: amd64
   {{- if .className }}
   ingressClassName: {{ .className }}
   {{- end }}

@@ -19,6 +19,8 @@ spec:
       labels:
         app: kubelink
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       terminationGracePeriodSeconds: 30
       restartPolicy: Always
       serviceAccount: devtron

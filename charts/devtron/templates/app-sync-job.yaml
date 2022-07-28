@@ -9,6 +9,8 @@ metadata:
 spec:
       template:
         spec:
+          nodeSelector:
+            kubernetes.io/arch: amd64
           serviceAccountName: devtron
           initContainers:
           - name: migration-wait
@@ -46,6 +48,8 @@ spec:
     spec:
       template:
         spec:
+          nodeSelector:
+            kubernetes.io/arch: amd64
           containers:
           - name: chart-sync
             image: quay.io/devtron/chart-sync:1227622d-132-3775

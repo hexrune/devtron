@@ -67,6 +67,8 @@ spec:
         app: dashboard
         release: devtron
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       terminationGracePeriodSeconds: 30
       restartPolicy: Always
       containers:

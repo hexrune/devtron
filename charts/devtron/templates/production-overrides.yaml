@@ -24,6 +24,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -41,6 +43,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -58,6 +62,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -75,6 +81,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -92,6 +100,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -117,6 +127,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -152,6 +164,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -176,6 +190,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -218,6 +234,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -257,6 +275,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -281,6 +301,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -322,6 +344,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -377,6 +401,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -401,6 +427,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 requests:
@@ -434,6 +462,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -468,6 +498,8 @@ data:
         replicas: 2
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 requests:
@@ -497,6 +529,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 requests:
@@ -510,6 +544,8 @@ data:
     #      spec:
     #        template:
     #          spec:
+    #            nodeSelector:
+    #             kubernetes.io/arch: amd64
     #            containers:
     #            - resources:
     #                requests:
@@ -530,6 +566,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -554,6 +592,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -578,6 +618,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -617,6 +659,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -690,6 +734,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -714,6 +760,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:
@@ -743,6 +791,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 requests:
@@ -767,6 +817,8 @@ data:
       spec:
         template:
           spec:
+            nodeSelector:
+              kubernetes.io/arch: amd64
             containers:
             - resources:
                 limits:

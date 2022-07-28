@@ -51,6 +51,8 @@ spec:
       labels:
         app.kubernetes.io/name: argocd-dex-server
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
